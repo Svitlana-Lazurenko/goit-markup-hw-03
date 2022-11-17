@@ -128,11 +128,15 @@ header ul {
   margin-right: 350px;
 }
 
-.nav-link:not(:last-child) {
+.cont-list {
+  margin-right: 15px;
+}
+
+.nav-list > li:not(:last-child) {
   margin-right: 50px;
 }
 
-.hd-contact:not(:last-child) {
+.cont-list > li:not(:last-child) {
   margin-right: 40px;
 }
 
@@ -189,6 +193,8 @@ header ul {
 
   width: 200px;
   height: 50px;
+
+  margin: 0 auto;
 }
 
 /* ----Other Main----- */
@@ -211,7 +217,9 @@ header ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  margin-bottom: 50px;
+  display: block;
+  margin: 0px auto 50px;
+  /* margin-bottom: 50px; */
 }
 
 .comand-title {
@@ -247,7 +255,7 @@ main .list {
   padding-bottom: 90px;
 }
 
-.third-desk div {
+.comand-card {
   padding: 30px 70px;
 }
 
@@ -323,6 +331,7 @@ footer {
 
 .address-list {
   font-style: inherit;
+  margin-top: 30px;
 }
 
 .physical-address,
