@@ -142,7 +142,8 @@ header ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  padding: 10px 0px;
+  display: block;
+  padding: 7px 0px;
 }
 
 .nav-list {
@@ -237,20 +238,25 @@ main .list {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 /* ------------Comand-Студія------------ */
 
-.comand img:not(:last-child) {
-  margin-right: 30px;
+.comand li {
+  background: var(--hd-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.comand-card:not(:last-child) {
+.comand li:not(:last-child) {
   margin-right: 30px;
 }
 
 .comand-card {
-  padding: 30px 70px;
+  padding: 30px;
 }
 
 .comand-title {
@@ -325,6 +331,7 @@ main .list {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
   margin-bottom: 5px;
 }
 
