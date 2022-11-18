@@ -241,6 +241,14 @@ main .list {
 
 /* ------------Comand-Студія------------ */
 
+.comand img:not(:last-child) {
+  margin-right: 30px;
+}
+
+.comand-card:not(:last-child) {
+  margin-right: 30px;
+}
+
 .comand-card {
   padding: 30px 70px;
 }
@@ -251,6 +259,8 @@ main .list {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
 }
 
 .comand-desk {
@@ -267,7 +277,9 @@ main .list {
 }
 
 .btn-list {
-  margin: 0px 315px 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .btn-list > li:not(:last-child) {
@@ -285,6 +297,8 @@ main .list {
   letter-spacing: 0.03em;
 
   cursor: pointer;
+
+  padding: 6px 22px;
 }
 
 .btn-menu:hover,
@@ -311,6 +325,7 @@ main .list {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 5px;
 }
 
 .work-list p {
