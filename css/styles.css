@@ -105,14 +105,10 @@ body {
 /* ------------Header------------ */
 
 header {
-  padding: 25px 0px;
   border-bottom: 1px solid #ececec;
 }
 
-header .container {
-  display: flex;
-}
-
+header .container,
 header ul {
   display: flex;
 }
@@ -120,6 +116,7 @@ header ul {
 .hd-logo-link {
   color: var(--logo-color);
 
+  padding: 25px 0px;
   margin-right: 90px;
 }
 
@@ -143,7 +140,7 @@ header ul {
   letter-spacing: 0.02em;
 
   display: block;
-  padding: 7px 0px;
+  padding: 32px 0px;
 }
 
 .nav-list {
